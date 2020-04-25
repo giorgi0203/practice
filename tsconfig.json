@@ -23,6 +23,7 @@
       "@features/*": ["src/app/features/*"],
       "@core/*": ["src/app/core/*"],
       "@auth/*": ["src/app/auth/*"],
+      "@styles/*": ["src/assets/styles/*"],
     }
   }
 }

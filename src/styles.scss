@@ -1,5 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import "inputs";
+@import "buttons";
+@import "palette";
 *{
     margin:  0;
     padding: 0;
+    box-sizing: border-box;
+
+    color: $color5;
 }
