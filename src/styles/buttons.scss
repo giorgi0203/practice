@@ -1,4 +1,8 @@
 button {
     border: none;
     padding: 20px;
+    background-color: $color3;
+    &:hover{
+        background-color: $color1;
+    }
 }

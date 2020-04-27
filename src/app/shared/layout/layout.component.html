@@ -1,4 +1,8 @@
-<div>
-<h1>in app layout</h1>
-  <ng-content></ng-content>
+<div class="app-container">
+  <app-header></app-header>
+  <div class="main">
+    <app-sidenav></app-sidenav>
+    <ng-content></ng-content>
+  </div>
+  <app-footer></app-footer>
 </div>

@@ -35,6 +35,7 @@ export class LoginComponent implements OnInit {
     if (this.loginForm.valid) {
       this.authService.authenticate(new AuthForm(this.loginForm.value)).subscribe((response: AuthResponse) => {
         this.authService.saveToken(new AuthResponse(response));
+        this.router.navigate(["/app"]);
       })
     }
   }
