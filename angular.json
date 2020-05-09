@@ -148,6 +148,7 @@
   },
   "defaultProject": "practice",
   "cli": {
-    "defaultCollection": "@datorama/akita"
+    "defaultCollection": "@datorama/akita",
+    "analytics": false
   }
 }
